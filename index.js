@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function createEmployeeRecord(data) {
   return {
     firstName: data[0],
@@ -58,3 +59,6 @@ function calculatePayroll(records) {
   const empPay = records.map((record) => { return allWagesFor(record) })
   return empPay.reduce((total, num) => { return total += num })
 }
+=======
+
+>>>>>>> 09850a67bc6409638d848c5dabc6a792b4cfe006
